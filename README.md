@@ -9,9 +9,7 @@ Sistema de suporte educacional simples  em que os usuários da aplicação podem
 
 ## ✨ Demonstração
 
-Você pode conferir a aplicação acessando através da url:
-- usuários autenticados: https://e2e-suporte.vercel.app/
-- aberturas de chamados não autenticados: https://e2e-suporte.vercel.app/open
+Você pode conferir a aplicação acessando através da url: https://e2e-suporte.vercel.app/
 
 ## 🎯 Objetivo do projeto
 
@@ -27,6 +25,7 @@ Foi projetado como base para exercícios práticos nas formações da escola.
 - [Mongodb](https://www.mongodb.com/pt-br)
 
 ## ⚙️ Instalação
+*será necessário configurar no arquivo .env variavéis  necessárias para execução local. (Conteúdo de aula)
 
 Para que este rode em sua máquina, siga os passos abaixo:
 
