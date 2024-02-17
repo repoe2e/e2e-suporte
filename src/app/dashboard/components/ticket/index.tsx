@@ -1,7 +1,7 @@
 "use client"
 
 import { useContext } from 'react'
-import { StudentProprs } from '@/utils/student.type';
+import { StudentProps } from '@/utils/student.type';
 import { TicketProps } from '@/utils/ticket.type'
 import { FiCheckSquare, FiFile } from 'react-icons/fi'
 import { api } from "@/lib/api"
@@ -10,7 +10,7 @@ import { ModalContext } from '@/providers/modal'
 
 interface TicketItemProps {
     ticket: TicketProps;
-    student: StudentProprs | null;
+    student: StudentProps | null;
 }
 
 export function TicketItem({ student, ticket }: TicketItemProps) {

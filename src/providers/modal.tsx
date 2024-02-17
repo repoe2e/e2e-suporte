@@ -2,7 +2,7 @@
 
 import { createContext, ReactNode, useState } from 'react'
 import { TicketProps } from '@/utils/ticket.type'
-import { StudentProprs } from '@/utils/student.type'
+import { StudentProps } from '@/utils/student.type'
 import { ModalTicket } from '@/components/modal'
 
 interface ModalContextData {
@@ -14,7 +14,7 @@ interface ModalContextData {
 
 interface TicketInfo {
     ticket: TicketProps;
-    student: StudentProprs | null;
+    student: StudentProps | null;
 }
 
 export const ModalContext = createContext({} as ModalContextData)
