@@ -28,6 +28,7 @@ Foi projetado como base para exercícios práticos nas formações da escola.
 - [Mongodb](https://www.mongodb.com/pt-br)
 
 ## ⚙️ Instalação
+*será necessário configurar no arquivo .env variavéis  necessárias para execução local. (Conteúdo de aula)
 
 Para que este rode em sua máquina, siga os passos abaixo:
 
