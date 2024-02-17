@@ -48,6 +48,15 @@ GOOGLE_CLIENT_SECRET="YOUR_GOOGLE_CLIENT_SECRET"
 - Adicione aos URIs de redirecionamento autorizados: http://localhost:3000/api/auth/callback/google .
 - Termine acessando APIs e serviços => tela de consentimento do OAuth e publicando o aplicativo.
 
+## Adicionar Prisma a um projeto NextAuth.js existente
+
+-   siga as instruções para [configurar o Prisma com NextAuth.js](https://next-auth.js.org/adapters/prisma)
+
+Configuração Prisma para este projeto
+
+-   execute `npx prisma migrate dev`sempre que você alterar o esquema
+-   execute `npx prisma studio`se quiser ver o banco de dados em uma GUI
+
 
 ## ⚙️ Instalação
 *será necessário configurar no arquivo .env variavéis  necessárias para execução local. (Conteúdo de aula)
