@@ -9,7 +9,10 @@ Sistema de suporte educacional simples  em que os usuários da aplicação podem
 
 ## ✨ Demonstração
 
-Você pode conferir a aplicação acessando através da url: https://e2e-suporte.vercel.app/
+Você pode conferir a aplicação acessando através da url:
+- usuários autenticados: https://e2e-suporte.vercel.app/
+- aberturas de chamados usuários não autenticados: https://e2e-suporte.vercel.app/open
+
 
 ## 🎯 Objetivo do projeto
 
