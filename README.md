@@ -9,8 +9,8 @@ Sistema de suporte educacional simples  em que os usuários da aplicação podem
 
 ## ✨ Demonstração
 
-Acesso para rotas autenticadas: https://e2e-suporte.vercel.app/
-Acesso para abertura de chamado rotas não autenticadas: https://e2e-suporte.vercel.app/
+- Acesso para rotas autenticadas: https://e2e-suporte.vercel.app/
+- Acesso para abertura de chamado rotas não autenticadas: https://e2e-suporte.vercel.app/
 
 
 ## 🎯 Objetivo do projeto
