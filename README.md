@@ -26,6 +26,29 @@ Foi projetado como base para exercícios práticos nas formações da escola.
 - [Prisma](https://www.prisma.io/)
 - [Mongodb](https://www.mongodb.com/pt-br)
 
+## 📝 Configuração do ambiente
+
+Crie um arquivo .env no diretório raiz e adicione as seguintes variáveis:
+```bash
+
+DATABASE_URL=
+NODE_ENV=development
+HOST_URL=http://localhost:3000
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET="YOUR_NEXTAUTH_SECRET"
+GOOGLE_CLIENT_ID="YOUR_GOOGLE_CLIENT_ID"
+GOOGLE_CLIENT_SECRET="YOUR_GOOGLE_CLIENT_SECRET"
+```
+- Navegue até https://console.cloud.google.com .
+- Crie um novo projeto.
+- Vá para APIs e serviços => Credenciais.
+- Clique em CRIAR CREDENCIAIS => ID do cliente OAuth.
+- Escolha o aplicativo da Web.
+- Adicione às origens JavaScript autorizadas: http://localhost:3000 .
+- Adicione aos URIs de redirecionamento autorizados: http://localhost:3000/api/auth/callback/google .
+- Termine acessando APIs e serviços => tela de consentimento do OAuth e publicando o aplicativo.
+
+
 ## ⚙️ Instalação
 *será necessário configurar no arquivo .env variavéis  necessárias para execução local. (Conteúdo de aula)
 
@@ -43,5 +66,7 @@ $ npm run dev
 
 Abra http://localhost:3000 no seu navegador para visualizar o projeto
 ```
+## ⚙️Implantar no Vercel
+A maneira mais fácil de implantar seu aplicativo Next.js é usar a plataforma [Vercel](https://vercel.com/) dos criadores do Next.js.
 
 ### Bora estudar!
