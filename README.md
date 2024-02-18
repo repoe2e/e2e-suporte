@@ -52,7 +52,7 @@ GOOGLE_CLIENT_SECRET="YOUR_GOOGLE_CLIENT_SECRET"
 
 Configuração Prisma para este projeto
 
--   execute `npx prisma migrate dev`sempre que você alterar o esquema
+-   execute `npx prisma generate`sempre que você alterar o esquema
 -   execute `npx prisma studio`se quiser ver o banco de dados em uma GUI
 
 
