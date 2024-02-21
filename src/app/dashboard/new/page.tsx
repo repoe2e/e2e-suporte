@@ -64,7 +64,7 @@ export default async function NewTicket() {
                     <label className="mb-1 font-medium text-lg">Descreva o problema</label>
                     <textarea
                         className="w-full border-2 rounded-md px-2 mb-2 h-24 resize-none"
-                        placeholder="Descreva o problema que está ocorrendo..."
+                        placeholder="Descreva o problema que está ocorrendo...."
                         id="description-chamado"
                         name="description"
                         required

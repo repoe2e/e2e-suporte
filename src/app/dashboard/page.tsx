@@ -24,10 +24,12 @@ export default async function Dashboard() {
         },
         include: {
             student: true,
-        },
-        orderBy: {
-            created_at: "desc" //mais recentes primeiro
         }
+        //inclusão de bug no código para testes de aluno
+        //regra: 3.	Chamados devem ser exibidos em ordem decrescente 
+        //   orderBy: {
+        //       created_at: "desc" //mais recentes primeiro
+        //   }
     })
 
     return (
