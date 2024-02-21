@@ -8,10 +8,8 @@ Desenvolvido com NextJS e TypeScript.
 Sistema de suporte educacional simples  em que os usuários da aplicação podem cadastrar alunos, visualizar chamados abertos, criar novos chamados e encerrar chamados.
 
 ## ✨ Demonstração
-
 - Acesso para rotas autenticadas: https://e2e-suporte.vercel.app/
-- Acesso para abertura de chamado rotas não autenticadas: https://e2e-suporte.vercel.app/
-
+- Acesso para abertura de chamado rotas não autenticadas: https://e2e-suporte.vercel.app/open
 
 ## 🎯 Objetivo do projeto
 
@@ -54,7 +52,7 @@ GOOGLE_CLIENT_SECRET="YOUR_GOOGLE_CLIENT_SECRET"
 
 Configuração Prisma para este projeto
 
--   execute `npx prisma migrate dev`sempre que você alterar o esquema
+-   execute `npx prisma generate`sempre que você alterar o esquema
 -   execute `npx prisma studio`se quiser ver o banco de dados em uma GUI
 
 
